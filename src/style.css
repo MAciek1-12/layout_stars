@@ -1,6 +1,6 @@
 .stars {
   display: flex;
-  margin-right: 0 auto;
+  margin: 0 auto;
 }
 
 .stars__star {
