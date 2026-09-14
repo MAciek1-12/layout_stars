@@ -1,25 +1,33 @@
 .stars {
   display: flex;
-  gap: 4px;
+  margin-right: 0 auto;
 }
 
 .stars__stars {
   width: 30px;
   height: 30px;
-
-  background-image: url(images/star-active.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-
-.stars__stars1 {
-  width: 30px;
-  height: 30px;
-
+  margin-right: 4px;
   background-image: url(images/star.svg);
-  background-size: contain;
   background-repeat: no-repeat;
 }
 
+.stars--1 .stars__stars:nth-child(-n+1) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--2 .stars__stars:nth-child(-n+2) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--3 .stars__stars:nth-child(-n+3) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--4 .stars__stars:nth-child(-n+4) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--5 .stars__stars:nth-child(-n+5) {
+  background-image: url(images/star-active.svg);
+}
 
